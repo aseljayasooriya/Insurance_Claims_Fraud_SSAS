@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>gNa56m/LuOKscg3b59CJVJhANyg=5/13/2022 6:55:52 PM5/12/2022 10:30:05 PMRfoYrOB4gm+9Ks+TzmWtTMcIfs8=5/12/2022 10:30:05 PM5/12/2022 10:30:05 PM</TimeStamp>
+        <TimeStamp>OU95ufBYcOY/Xwodn3np3oCI1tU=5/14/2022 10:14:55 AM5/12/2022 10:30:05 PMRfoYrOB4gm+9Ks+TzmWtTMcIfs8=5/12/2022 10:30:05 PM5/12/2022 10:30:05 PM</TimeStamp>
         <ID>
           <String>Cube_Insurance_Claims_Fraud</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-05-13T13:26:48.143333Z</LastDeployed>
+  <LastDeployed>2022-05-14T04:45:07.796667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -2982,6 +2982,15 @@
           <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
           <StatusGraphic>Gauge - Ascending</StatusGraphic>
         </Kpi>
+        <Kpi>
+          <ID>KPI 1</ID>
+          <Name>KPI Claimed Loss</Name>
+          <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
+          <Value>[Measures].[Premium Amount]*[Measures].[Tenure] - [Measures].[Claim Amount]</Value>
+          <Goal>[Measures].[Claim Amount] &gt; [Measures].[Premium Amount] * [Measures].[Tenure]</Goal>
+          <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
+          <StatusGraphic>Gauge - Ascending</StatusGraphic>
+        </Kpi>
       </Kpis>
     </Cube>
   </Cubes>

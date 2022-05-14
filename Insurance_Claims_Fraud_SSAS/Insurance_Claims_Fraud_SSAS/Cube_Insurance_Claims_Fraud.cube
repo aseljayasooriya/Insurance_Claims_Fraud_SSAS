@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fc797cf9-88f2-4ea9-aed7-d773c5c11525" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="19a9cfbc-beba-46c8-b54b-18f93634c546" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Cube_Insurance_Claims_Fraud</ID>
   <Name>Cube_Insurance_Claims_Fraud</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -254,531 +254,531 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="ca15e7ae-b845-419c-b3ba-727d9d892fb5">
+    <Dimension dwd:design-time-name="cedea7dc-9fbe-479e-bebb-eb573f056b26">
       <ID>Report Date</ID>
       <Name>Report Date</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="794a0501-b913-4d44-9982-6e0ec18b8238">
+        <Attribute dwd:design-time-name="9ab57725-9310-44c1-b816-9c7319de71c2">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c39bbabf-3172-4560-9059-edd23beb0cc2">
+        <Attribute dwd:design-time-name="9ab101ef-c56e-47c0-9679-146ae77745b7">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5c398981-7068-4089-95fb-a9f40e9c0dbd">
+        <Attribute dwd:design-time-name="73a986c4-ff87-40c7-87d8-15d07db76839">
           <AttributeID>Full Date UK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7150d34b-ad25-46df-babf-295584cb4737">
+        <Attribute dwd:design-time-name="96e3f566-8612-49a8-aabe-b831a1e6a028">
           <AttributeID>Full Date USA</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8b248b98-6510-4eec-9e38-fd4e8a9550ac">
+        <Attribute dwd:design-time-name="46017311-91bc-4350-8e8d-a7959e237e61">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f8c199e1-2eea-4ade-b5e6-d1d39367aaa5">
+        <Attribute dwd:design-time-name="d16599b8-0b16-49b2-bfb8-0d5f34678c0a">
           <AttributeID>Day Suffix</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="556117db-3626-45d9-86e2-d2edd2b01dcc">
+        <Attribute dwd:design-time-name="e3e96e59-cd08-4658-84d3-487290ec8c73">
           <AttributeID>Day Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4412aede-f43b-4311-bb80-7c704c5622c2">
+        <Attribute dwd:design-time-name="abe54782-90fc-4bfe-b803-5bf37388b1c3">
           <AttributeID>Day Of Week USA</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b50489f4-c32a-4c5b-b93f-08e2ff683e1b">
+        <Attribute dwd:design-time-name="c996acde-10d9-4e28-97a8-efcbae09133d">
           <AttributeID>Day Of Week UK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="98d0ff45-7ee8-4700-a0ca-8e3790c96320">
+        <Attribute dwd:design-time-name="eb38e1e6-eef2-4053-a947-2d6ef27f491c">
           <AttributeID>Day Of Week In Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c890c596-e642-4cc6-a555-3980c0d497bf">
+        <Attribute dwd:design-time-name="40abe6b0-f4cb-4d96-ad92-ddadcb2c266c">
           <AttributeID>Day Of Week In Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eb9d9501-4017-49fa-b43a-e1f8ee484679">
+        <Attribute dwd:design-time-name="8f982204-7ce1-40dd-a46f-46ba037e20d3">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="567dcb33-682d-4c3c-8490-5f091dc6392d">
+        <Attribute dwd:design-time-name="04d62a24-28c9-45ca-9850-8bc10a07e84f">
           <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="baed2b34-44aa-4340-a8bc-d62ed1627290">
+        <Attribute dwd:design-time-name="30f4368a-d790-48d5-bf0d-a42f1d88e08e">
           <AttributeID>Week Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="95b0e1ac-ba34-4417-964f-d0604abd3e38">
+        <Attribute dwd:design-time-name="f51e638c-d111-40e0-97f3-19e623b6abb6">
           <AttributeID>Week Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="74281ebf-dc99-4f33-89ff-b0c70dd3db22">
+        <Attribute dwd:design-time-name="fd07f74e-e6f1-4597-b629-beae07dc1822">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="81ee9765-5f10-4664-811a-3e5af552b460">
+        <Attribute dwd:design-time-name="41350696-8352-4107-9c44-9daf63717fb6">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f810e5db-15fc-4573-8c0e-283a896753d6">
+        <Attribute dwd:design-time-name="e4cc1774-221e-423a-9231-51b3a775a76e">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c856fd1e-0297-44b6-8159-3a27efbb4f5a">
+        <Attribute dwd:design-time-name="6b9ab312-a1d7-408e-994f-688250a3df83">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="961f029c-a20c-4b39-b576-178f2c923e37">
+        <Attribute dwd:design-time-name="6c7747ab-8ffd-4d69-9a32-540fb159fcaa">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c44d5411-09d9-47ea-ac88-932baec642b9">
+        <Attribute dwd:design-time-name="efa9f7ea-1f7c-4b8c-981a-ac2e4134deb7">
           <AttributeID>Quarter Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3ce04f80-fdfb-48f9-a3a0-3fa9c64d3cb6">
+        <Attribute dwd:design-time-name="c9e70963-bc2a-4e17-b507-bb897b6ad885">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e4761918-4691-4c83-96a4-57cf25cfd32d">
+        <Attribute dwd:design-time-name="6a6ac8a0-edc0-45d7-bb54-9ba505bb8d6e">
           <AttributeID>Year Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="08ae2225-5e6b-4b92-b8f9-73caed831020">
+        <Attribute dwd:design-time-name="6607b5f6-4ce6-447d-b30e-b93a666145ce">
           <AttributeID>Month Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1276e06a-947f-4da3-8e83-6f1522d5ab68">
+        <Attribute dwd:design-time-name="9569728a-1bf0-46cf-abf4-ff59bbcc9df2">
           <AttributeID>MMYYYY</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f022c286-6a6c-499d-bfda-c3a5c8240b6c">
+        <Attribute dwd:design-time-name="3bd6901f-d61d-47b5-9ae3-dc18a4bae9bc">
           <AttributeID>First Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d6645926-04ea-48c1-9fc4-9c238891f008">
+        <Attribute dwd:design-time-name="55019972-268f-446e-835e-b939463b3aea">
           <AttributeID>Last Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cad665ad-24f0-4497-96a3-6f59f6493a7f">
+        <Attribute dwd:design-time-name="2ba7897e-feb9-4a12-845d-9769ba6e235c">
           <AttributeID>First Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ed020bf4-f53c-4957-89f7-d5710af837cf">
+        <Attribute dwd:design-time-name="5ec7b34a-03fb-4b17-b1e1-7427de5e6af7">
           <AttributeID>Last Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="96d3a742-22b7-4884-94b0-a9aa3b05378e">
+        <Attribute dwd:design-time-name="d9e276e4-897d-4417-bff5-92ad3d54ece9">
           <AttributeID>First Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="01703757-0d91-4023-ac81-f2b6947e2e76">
+        <Attribute dwd:design-time-name="96b9346b-723e-4d3c-a93f-20ab14c8e4f4">
           <AttributeID>Last Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ffa21ac6-0d23-4bdf-a7e3-99f0ac9c32eb">
+        <Attribute dwd:design-time-name="576d7d37-1dc6-4105-bdf2-7eab3ba38de4">
           <AttributeID>Is Holiday SL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="94b985df-2c2e-453d-bbfb-118ff2569752">
+        <Attribute dwd:design-time-name="eee21f3a-5445-47c1-a423-9e00706ea688">
           <AttributeID>Is Weekday</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5fc134a8-5fe4-4d16-b55c-9c0e89f6f0ee">
+        <Attribute dwd:design-time-name="21745ffc-05c7-48ee-a29b-b9d46b12de7e">
           <AttributeID>Holiday SL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6227b0b6-c74d-4cde-b18c-954508be2ac9">
+        <Attribute dwd:design-time-name="b5af4b16-9163-4c36-ae3f-839f4d6e1125">
           <AttributeID>Is Current Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ab8fdca3-3046-41fe-8eec-caba6967d470">
+        <Attribute dwd:design-time-name="732d67a4-0545-4ac6-a3ab-1bbb77db0162">
           <AttributeID>Is Data Available</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="695e3a2e-c4f2-42ea-961c-d3fec5bc0ebd">
+        <Attribute dwd:design-time-name="e2727cd4-a803-483d-8297-6912f66e3136">
           <AttributeID>Is Latest Data Available</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="f4369446-3be5-4393-8c35-dad2c39a0fce">
+        <Hierarchy dwd:design-time-name="4cb896e7-24ae-4715-992c-d050ff151656">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="97556730-27b0-4b5e-ba1e-da304aca89ef">
+    <Dimension dwd:design-time-name="697c048a-07e8-4bfe-9757-e451d939c96c">
       <ID>Loss Date</ID>
       <Name>Loss Date</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0d9b31a2-441d-4eaa-a496-3a36775569e3">
+        <Attribute dwd:design-time-name="4a2f45e7-b73d-4d37-a97a-98ec96ae2fda">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4fc6416a-fe12-41d2-ba87-03fc5f316981">
+        <Attribute dwd:design-time-name="3694b7aa-5c9f-4525-8854-dad94c2477de">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="20998c4b-c06f-49bb-8cd3-0fece23802d4">
+        <Attribute dwd:design-time-name="991a3ed5-689e-4f86-951d-862c32d0fd5c">
           <AttributeID>Full Date UK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d9275100-6897-4659-bfad-e28dab3b5f0a">
+        <Attribute dwd:design-time-name="6c429f0b-3a66-4e3b-82bf-fe5648cf5a4f">
           <AttributeID>Full Date USA</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7a6961d7-cef2-45fb-8a45-7eeb72e31094">
+        <Attribute dwd:design-time-name="9d3e7e53-7976-439a-9b1c-d6cf0216859a">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="89e2666d-b4d8-4792-881e-f0e39eca7d25">
+        <Attribute dwd:design-time-name="05bfb682-458f-4ddc-ad45-2cc1ac89f033">
           <AttributeID>Day Suffix</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="df54e195-3797-466d-9cca-e283d67e4bce">
+        <Attribute dwd:design-time-name="70af90f0-bee9-4a89-a9df-bbb6a433177b">
           <AttributeID>Day Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="313c4e30-decc-416d-b0d1-1447a85ed024">
+        <Attribute dwd:design-time-name="4932fb8e-44b0-4494-98db-2eedfa12af1a">
           <AttributeID>Day Of Week USA</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a3af83b0-143c-4324-9a4f-2662bf2d565a">
+        <Attribute dwd:design-time-name="501d9296-08d3-42f5-92d8-3f4b80134a35">
           <AttributeID>Day Of Week UK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="647ad175-c8f2-449c-a172-cb89b878f911">
+        <Attribute dwd:design-time-name="81644cb3-878f-4444-abfa-90379a27b6d8">
           <AttributeID>Day Of Week In Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="41b55b76-7aba-407f-b887-a15df84f1413">
+        <Attribute dwd:design-time-name="f1a32b3b-e986-43d3-acc0-7b0cd6d396e5">
           <AttributeID>Day Of Week In Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c407a804-1085-4ef0-9d20-db3e1e7b3899">
+        <Attribute dwd:design-time-name="d5d2649e-0d0d-48ea-b903-b20cf3783209">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5fa5072b-dcfa-4475-b194-547b4c0bd537">
+        <Attribute dwd:design-time-name="446d78a5-1050-45d3-ba30-d3be4ebdc982">
           <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c6a7386a-bdcd-4f63-b65d-39fbfb1f0463">
+        <Attribute dwd:design-time-name="a5505d1c-e3e3-49ad-a29e-70cb1274670d">
           <AttributeID>Week Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fe265d94-3ce8-4d85-a9df-ceb140f84a56">
+        <Attribute dwd:design-time-name="709f9e9a-3471-44c6-ac78-037cdcae5e97">
           <AttributeID>Week Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="14996b39-d787-46f2-8566-17e3cfe5b4ee">
+        <Attribute dwd:design-time-name="4e2bf125-7f18-4128-8cb2-410d0472537e">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f1af20a9-5a26-48af-a84a-126f7d189585">
+        <Attribute dwd:design-time-name="495694e2-cd21-43dd-a199-2ef17537fa58">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="20ea3ee7-7d31-465f-b5c7-2326bb1fe4e9">
+        <Attribute dwd:design-time-name="da896585-d44e-42c0-97d6-d24c06fcf0d2">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="18160cfb-9064-461f-ab2e-6ff38c83a06d">
+        <Attribute dwd:design-time-name="af032693-c87b-4682-9f6c-3285865d134c">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5a71ad5d-0de3-4f97-b874-be31e73181cd">
+        <Attribute dwd:design-time-name="29b39294-44d8-4e7b-905d-69c8bb47c7bb">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="468a9e8e-3a70-40cb-acfe-5f257c8dc346">
+        <Attribute dwd:design-time-name="9623c351-2fbc-4016-87da-036838e93d4c">
           <AttributeID>Quarter Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d8d3791e-7ddd-48bc-bb3e-69d9f98b7a5b">
+        <Attribute dwd:design-time-name="87dce142-518b-48f1-80c3-8e629a41b1b0">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b00e8f36-8674-4e16-a4dd-df947fe0d125">
+        <Attribute dwd:design-time-name="5e012b3b-8435-4857-8948-70001b36dfeb">
           <AttributeID>Year Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6c7e315e-0f53-473f-b0a4-8a7dc430d7e0">
+        <Attribute dwd:design-time-name="3f8e3155-2102-4130-ad24-ec75da38b7d4">
           <AttributeID>Month Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0d183583-6d8b-4272-a773-19dd54c8c74d">
+        <Attribute dwd:design-time-name="af0956c8-3330-462c-a29c-d4c25656fecb">
           <AttributeID>MMYYYY</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="edb3f8ba-4409-4de0-aa52-9fef8a5a1aea">
+        <Attribute dwd:design-time-name="73f35bfd-e44f-4462-be63-a3966b34ce1a">
           <AttributeID>First Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="abaa775d-d82c-4826-9bb1-e4db0ce2d547">
+        <Attribute dwd:design-time-name="90c76671-ecc1-4596-a181-e7ccf7dbedab">
           <AttributeID>Last Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d0e48f7e-8587-4219-b54b-ad79354f617d">
+        <Attribute dwd:design-time-name="491ae02a-83b9-4c54-ac19-002c141001c0">
           <AttributeID>First Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bac84111-65c8-4b25-ad5c-1db57df8e4b2">
+        <Attribute dwd:design-time-name="77e8ceca-c394-48da-90c4-19ea52029506">
           <AttributeID>Last Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a5813702-b702-4481-b782-e81307171653">
+        <Attribute dwd:design-time-name="7df6365c-06c2-4783-812a-9c023ed12206">
           <AttributeID>First Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f5fe6107-30ee-4289-9c54-1a4f35905ac2">
+        <Attribute dwd:design-time-name="9f8e86a6-2872-4905-926b-b7e7bee74849">
           <AttributeID>Last Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0f654e51-4281-41e2-bab2-2ac4a30573dd">
+        <Attribute dwd:design-time-name="29f5a3fb-f1ab-417f-80bd-3daead6d3955">
           <AttributeID>Is Holiday SL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="04cdb289-b576-4ccd-a77b-02a1a1b9843a">
+        <Attribute dwd:design-time-name="32d0f1ad-5473-4c4d-a00a-f1b28cca13da">
           <AttributeID>Is Weekday</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a8c162c7-c741-4b71-8136-5b981811c339">
+        <Attribute dwd:design-time-name="22bb8c7d-2c96-4c21-b057-64225867ef25">
           <AttributeID>Holiday SL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fff12c7e-0ed0-4873-8111-eb3172a7910e">
+        <Attribute dwd:design-time-name="13dba460-5b7b-43be-b865-96eb7d251120">
           <AttributeID>Is Current Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7b065ce2-15e6-421f-a975-536a74e8f5e2">
+        <Attribute dwd:design-time-name="52bba6a1-1750-4eb1-886d-1a94fe59b186">
           <AttributeID>Is Data Available</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f44ea489-f700-45b0-a052-53ce05806db6">
+        <Attribute dwd:design-time-name="2374812b-1171-4181-9c2e-a520c74e2009">
           <AttributeID>Is Latest Data Available</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="2f715a2d-7ae6-461b-819f-2843c5304a81">
+        <Hierarchy dwd:design-time-name="583b4278-c1fb-46aa-a929-c6b6140ec8e1">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="a2be5de5-f822-4ad9-aca2-d4c4277e0bbb">
+    <Dimension dwd:design-time-name="dc68bee0-579b-4392-bb64-6f2d116f673a">
       <ID>Txn Date</ID>
       <Name>Txn Date</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3927a5aa-314d-4563-9ff0-9f46035b115a">
+        <Attribute dwd:design-time-name="5c54d7a1-1953-45f6-bb75-14893794f824">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="00bbdee2-3498-48b1-aac4-7eb3c49a0cd4">
+        <Attribute dwd:design-time-name="9c7a84d4-e621-4f37-a4ee-306d7939505b">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1eac8b40-58d0-4ec6-b976-8af2e71a7af7">
+        <Attribute dwd:design-time-name="879205a4-5341-48a2-8f10-d9ac294fd60d">
           <AttributeID>Full Date UK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b6f561a9-0be2-4b7d-ba0c-f8b79162c457">
+        <Attribute dwd:design-time-name="eca73535-1980-4e44-abd5-2b15ba285e15">
           <AttributeID>Full Date USA</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="323daacf-c6d5-4e0b-bf59-8ced7e0f5d26">
+        <Attribute dwd:design-time-name="28c692e6-c588-4f34-a53c-b403f0e8a16a">
           <AttributeID>Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="13f522d6-88fb-47d9-9769-254ce38d8650">
+        <Attribute dwd:design-time-name="9016119e-8691-4d7f-a626-7f4aeb59ab5b">
           <AttributeID>Day Suffix</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e3e6eada-a782-44f4-a18f-86d2a69bdfb8">
+        <Attribute dwd:design-time-name="a988e74c-00c5-460c-a20f-f9d9757b4eee">
           <AttributeID>Day Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1666566c-ae4c-40e1-841c-abc962d5ab8a">
+        <Attribute dwd:design-time-name="1c03f3f3-4e59-4533-87ef-ea8a7fcc668f">
           <AttributeID>Day Of Week USA</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6e477324-856e-4c19-bce7-4b3fbb864948">
+        <Attribute dwd:design-time-name="258f4761-5b2f-46b2-a22c-da210cdddeb6">
           <AttributeID>Day Of Week UK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="240382ec-c54a-404c-8c71-7649cec12c65">
+        <Attribute dwd:design-time-name="cc93d643-6748-42ea-8d51-51ccaadf3007">
           <AttributeID>Day Of Week In Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bfa15a7c-6ed3-4d15-bda1-2d07b9a3bb9b">
+        <Attribute dwd:design-time-name="d0c20e5d-6d64-4a77-8569-fbb1ff17abef">
           <AttributeID>Day Of Week In Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9c153b67-3749-4f69-b100-47516d93f905">
+        <Attribute dwd:design-time-name="5bf28b18-7f3b-45cc-8840-e38fbc907d2e">
           <AttributeID>Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b705bc59-d432-48ec-87c3-3b508a3a382d">
+        <Attribute dwd:design-time-name="6180ad6b-efa6-451d-bfb0-688bc25039c6">
           <AttributeID>Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="27684b37-6e6d-406d-9896-41a3ddc4913b">
+        <Attribute dwd:design-time-name="8b535a15-6ff7-4a41-81b1-8591883d80d2">
           <AttributeID>Week Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cd6f204d-4e84-4682-8d11-e92ff659f437">
+        <Attribute dwd:design-time-name="d86522b7-15a2-4024-bcae-73084174028d">
           <AttributeID>Week Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dda750b4-609a-4842-8b65-674a6dd7eada">
+        <Attribute dwd:design-time-name="f75c0936-6d7c-4754-a79f-30efca3424e6">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="217d1f27-402a-4d9e-be42-d87b3f9ee810">
+        <Attribute dwd:design-time-name="79da2a95-acdb-42b2-9e85-cd2ae60d2c7d">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4e86b554-9503-481d-964e-c705e691611a">
+        <Attribute dwd:design-time-name="04906e72-05fa-42e8-a50c-400ec366e963">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c2252b9e-a4f7-455a-ad39-a5b059e1d81f">
+        <Attribute dwd:design-time-name="c31c6972-e961-43e1-a5cb-22c710ca5998">
           <AttributeID>Month Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="371d1407-ca2c-4fda-9c60-05efe1b2efdc">
+        <Attribute dwd:design-time-name="68e39a82-bd28-4729-93fe-e5e0e4abcb75">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f40b2bfd-020c-44b0-b166-e781edad282d">
+        <Attribute dwd:design-time-name="6ce898c9-164b-42b6-af3e-5b9ee2296413">
           <AttributeID>Quarter Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1ade633d-858d-4d90-9cf6-3a1f5d836d97">
+        <Attribute dwd:design-time-name="75dff45d-cfa7-4b8d-9b70-9296f41d54c2">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="43a9815d-e185-4d7e-ae19-c5c842817be2">
+        <Attribute dwd:design-time-name="9afec895-7b6f-4551-95d5-c8f6a79a31d3">
           <AttributeID>Year Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5a456ccf-bab1-4924-8ee5-5ce614dcd427">
+        <Attribute dwd:design-time-name="e719d55e-ee26-43db-97ed-edb09e64d6db">
           <AttributeID>Month Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1cd2486a-6d82-4d8e-9a51-1179e7c71cf1">
+        <Attribute dwd:design-time-name="d6f4b5df-6efb-4964-a32d-7e5540c02132">
           <AttributeID>MMYYYY</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ff71bef1-3665-4e44-adf3-734e51438faf">
+        <Attribute dwd:design-time-name="509d802a-32fc-4567-8670-a2d4b6d75965">
           <AttributeID>First Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bf5843c1-425b-45ad-81ad-15f83dcbc85e">
+        <Attribute dwd:design-time-name="9d48c7ac-3744-4293-8ed1-e51d636e937b">
           <AttributeID>Last Day Of Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cffb76be-b77f-4744-81a8-d7e52edbc592">
+        <Attribute dwd:design-time-name="0fcb5001-f88e-4ae4-a11a-89319fadeee8">
           <AttributeID>First Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f0e1a701-dcc1-4426-930e-47c7fe3c36cf">
+        <Attribute dwd:design-time-name="1f460801-9ff0-4cda-802f-e7aa40aece0f">
           <AttributeID>Last Day Of Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f4601f2c-1d80-46be-8766-dad806a4904b">
+        <Attribute dwd:design-time-name="481dc0e9-8d31-487f-8923-8a9777fd9d03">
           <AttributeID>First Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a0112811-3e27-4738-b52c-484813af2a50">
+        <Attribute dwd:design-time-name="6085f550-c86d-40ad-8f32-639e5700a57f">
           <AttributeID>Last Day Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bee1bfaf-9dde-48cf-9e5b-69f7db34bf18">
+        <Attribute dwd:design-time-name="557c6281-5866-494c-8311-2eafe18df921">
           <AttributeID>Is Holiday SL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9006bb4e-f1ca-4079-89db-c65b225dcc05">
+        <Attribute dwd:design-time-name="58b98513-69bb-403a-ac0a-c1aadf87d788">
           <AttributeID>Is Weekday</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5afdd6cb-5881-401a-816d-aa9056b305e9">
+        <Attribute dwd:design-time-name="f669b623-203e-4000-b6aa-72cdd69c0848">
           <AttributeID>Holiday SL</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ac1a875f-3a8e-48fe-b756-9b8f72ac457b">
+        <Attribute dwd:design-time-name="7ea70706-aa4d-4a06-8a47-98d1489c8ab6">
           <AttributeID>Is Current Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="65da8842-57f9-4037-bd91-a7c41c07be1d">
+        <Attribute dwd:design-time-name="f757c8e1-987a-43c2-9f66-a59d517ac82b">
           <AttributeID>Is Data Available</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f4fc2ddb-2059-463b-8173-3c3f4b147225">
+        <Attribute dwd:design-time-name="1f10ade9-9090-47e2-a0b1-d204bbf51579">
           <AttributeID>Is Latest Data Available</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="6b9172f3-644b-4248-af59-256138c5d244">
+        <Hierarchy dwd:design-time-name="51b9d902-91a9-4279-9ca0-fccaf2d67f67">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="99bfa1ec-4632-499b-9a6e-104d2552a76b">
+    <Dimension dwd:design-time-name="63980db2-9acf-4ee6-ac7c-a42758524e99">
       <ID>Dim Customer</ID>
       <Name>Dim Customer</Name>
       <DimensionID>Dim Customer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cb2d5f2f-bf23-4c2c-a7c6-7cc703dddca0">
+        <Attribute dwd:design-time-name="a5d9f197-b371-4647-b889-78ace72f597c">
           <AttributeID>Customer SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="95f0adb8-04f0-464e-81aa-301a9a794019">
+        <Attribute dwd:design-time-name="2caf76a4-7a1c-4816-9729-29c05931441a">
           <AttributeID>Alternate Policy Claim Number</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f75f2efd-61cc-4852-89f0-0197247fd249">
+        <Attribute dwd:design-time-name="5af02501-e943-4374-960a-863d7ffea68b">
           <AttributeID>Policy Eff Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="23e96583-a12c-403e-a921-1136cb603f2e">
+        <Attribute dwd:design-time-name="d1aede13-c638-480b-8dca-911dd0540d75">
           <AttributeID>Insurance Type</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="29e53829-f480-4c64-bbbd-4098d2f305c7">
+        <Attribute dwd:design-time-name="7443f12f-0ede-40ff-9bc0-0f8caa4959c6">
           <AttributeID>Claim Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f6a04a16-e594-43d7-ad18-30d5a099383f">
+        <Attribute dwd:design-time-name="52f13ab8-6ab9-4775-b583-01faf1a44cd5">
           <AttributeID>Any Injury</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7d0b86bf-2c2c-4cbc-9e4b-5e5c50e5b228">
+        <Attribute dwd:design-time-name="9f88b90d-3b49-48d1-a072-bc2875813578">
           <AttributeID>Police Report Available</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9e496d38-d601-4167-95cf-df78fc6e5411">
+        <Attribute dwd:design-time-name="c3736b10-ce85-4e53-a500-5b4e85ae028b">
           <AttributeID>Incident Hour Of Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a2c65427-85c7-45e1-9704-f992b4253632">
+        <Attribute dwd:design-time-name="2dd80d43-5e8e-46be-b9c1-1d20714814f3">
           <AttributeID>Customer Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cf6a4c47-5236-489c-bebc-5ee9fdad9292">
+        <Attribute dwd:design-time-name="b4146539-ae33-4991-a690-472c6fdce198">
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c8804174-d503-4f79-a969-ff449fe62096">
+        <Attribute dwd:design-time-name="fcaf7e42-355c-4002-bc9e-b125e0e5d902">
           <AttributeID>State</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b8ea8b0-fc0a-41b1-b9e1-423b637da293">
+        <Attribute dwd:design-time-name="57e84509-7efe-4cc7-a650-87b852e46f7c">
           <AttributeID>City</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1fa6ec70-8ea4-4d4d-bd57-242aacf2ea07">
+        <Attribute dwd:design-time-name="56b5cc8f-8023-44ec-8e67-d12f3b783e97">
           <AttributeID>Address Line1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9ea6133b-fe4c-46d2-945f-6c995f5d3281">
+        <Attribute dwd:design-time-name="b0989467-2cc6-4249-a3c0-76a752484b8e">
           <AttributeID>Address Line2</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="54b0635a-e3a8-4543-a03f-473ce5233ef5">
+        <Attribute dwd:design-time-name="cd0689ad-c6ea-4f60-b2e2-fa84f7a18883">
           <AttributeID>Age</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7f678807-9a9a-441c-9897-2678976470da">
+        <Attribute dwd:design-time-name="29d93b52-2ab7-47e0-a388-bc626b4e5419">
           <AttributeID>Employment Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="05253b71-11dc-45ff-9cd5-b827608ce002">
+        <Attribute dwd:design-time-name="12de95ed-e666-4387-805f-7f95cd2e52c4">
           <AttributeID>Social Class</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="06dd67e9-97ef-4afd-8c36-2df8b1b1cc4d">
+        <Attribute dwd:design-time-name="2e6ccbdb-8634-4510-9caa-8aa5ba96a310">
           <AttributeID>Risk Segmentation</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a61d0442-7ba9-4810-9932-e22d7d6b8da1">
+        <Attribute dwd:design-time-name="211fbe65-6370-4815-9132-5dbf1ade094e">
           <AttributeID>Marital Status</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="e4bc75fc-294d-4192-9c39-2cb9c179b0f0">
+        <Hierarchy dwd:design-time-name="4d3a07d8-594e-476d-a484-df52e3e3fd40">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="63ff6c46-2ee1-47e4-9d71-2cff98503658">
+    <Dimension dwd:design-time-name="45dee3c3-acf1-43a1-be9b-7c02d4ec2052">
       <ID>Dim Agent</ID>
       <Name>Dim Agent</Name>
       <DimensionID>Dim Agent</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="73d75aa6-d876-4237-8246-3a28c24ad3fe">
+        <Attribute dwd:design-time-name="674d432a-ffd9-40d2-9c5d-05f768563102">
           <AttributeID>Agent SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fd050aa7-8a0c-4c2d-9866-2fa00ba56cc2">
+        <Attribute dwd:design-time-name="445d07ca-bfbc-4ca9-aa1f-38c418947ac5">
           <AttributeID>Alternate Agent ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7755f739-c77b-41d6-8d30-18cec7eb4b63">
+        <Attribute dwd:design-time-name="d9a40bbd-6698-45c9-aee3-838f7bc764ba">
           <AttributeID>Agent Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="00a476ea-957d-4a54-bd0a-a38e309c31f8">
+        <Attribute dwd:design-time-name="ee06d326-84df-4068-8bf1-fc475f1b598c">
           <AttributeID>Date Of Joining</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ed182c37-52ea-43ab-a47c-1793e3411967">
+        <Attribute dwd:design-time-name="d5205bd9-3f30-4326-94fd-e1f60036397e">
           <AttributeID>City</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5473402c-b36f-4a50-9d79-46b1ed699b6c">
+        <Attribute dwd:design-time-name="f48de072-e64b-4581-a0c0-4e40556883bf">
           <AttributeID>State</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9d98a531-6172-425f-abc3-488b3fdbe796">
+        <Attribute dwd:design-time-name="d7c4e151-ca29-48fd-b57e-61b0cc7594d8">
           <AttributeID>Start Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2f91d0f4-6649-4c28-9fb0-f90662e4e7a5">
+        <Attribute dwd:design-time-name="0830cba8-42ae-4495-a990-c54d0f235c61">
           <AttributeID>End Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3345376a-b422-4ba3-b137-91dce4e6b6d1">
+        <Attribute dwd:design-time-name="880534d9-54cc-4a10-9023-45287aa49e75">
           <AttributeID>Insert Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0ce48394-54c1-48a0-ae69-0c71866b40b1">
+        <Attribute dwd:design-time-name="b403eba6-b535-4fc1-b6b1-d161a04719af">
           <AttributeID>Modified Date</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a577a46b-d56e-4fc1-934e-17237b4d325a">
+        <Hierarchy dwd:design-time-name="36e4ad37-ca51-4edb-a71e-f669c047f550">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="f6b8e4bf-5413-4681-9120-f36c3b3c9932">
+    <Dimension dwd:design-time-name="99ff61b3-4aa1-4075-89f1-af73ce8d5e19">
       <ID>Dim Vendor</ID>
       <Name>Dim Vendor</Name>
       <DimensionID>Dim Vendor</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="27b582e7-2080-40b2-92c4-0de3e48ff6e3">
+        <Attribute dwd:design-time-name="33d40eab-52a2-45c6-a2f3-8a364cf226c6">
           <AttributeID>Vendor SK</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="71b5d269-47a1-4852-9cd9-583bec8ced8b">
+        <Attribute dwd:design-time-name="b88bdfe8-4b69-4d00-943c-455193257e68">
           <AttributeID>Alternate Vendor ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="75b58d69-5f71-47f6-9233-a045341e4b19">
+        <Attribute dwd:design-time-name="32bc7a80-8abf-43a1-8331-71d59eee690c">
           <AttributeID>Vendor Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="20a55263-287b-4fda-81bc-8435c87683e1">
+        <Attribute dwd:design-time-name="7c46e79b-4963-42cb-982d-fa00d54ed320">
           <AttributeID>Address Line1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2cbb8c44-f00b-416a-8317-aecae209e538">
+        <Attribute dwd:design-time-name="91122d3b-f6e8-4fce-9419-5f41d3733515">
           <AttributeID>Address Line2</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4392647a-83fa-406a-80c2-03bf5452a95f">
+        <Attribute dwd:design-time-name="65283575-cfb5-4e9f-ac14-e4b8bd245572">
           <AttributeID>City</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="12cb0a8e-8b4e-46b6-a392-316aa81d08fe">
+        <Attribute dwd:design-time-name="86bf22db-fc55-46fe-b9c3-47b1b87f0a97">
           <AttributeID>State</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2f121c56-0745-499b-b4aa-45d07424b77d">
+        <Attribute dwd:design-time-name="c8219f00-e3a0-4abe-baf7-adf5692209cb">
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8c6c7677-2d5e-40d6-978c-8490f780562a">
+        <Attribute dwd:design-time-name="d6d9135c-f5d3-4cfe-8769-6329eeb32a43">
           <AttributeID>Insert Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="431daee3-47af-4a84-927c-349e2708d46a">
+        <Attribute dwd:design-time-name="8cfc18dd-d473-4be2-84c2-452baa6d513a">
           <AttributeID>Modified Date</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="afeadd1c-581c-4a85-a1c8-b471e178897c">
+        <Hierarchy dwd:design-time-name="fa0b98d8-382d-4eca-9568-640e8d7f3dda">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="a600752b-07d4-4541-a00a-9e9288565d16">
+    <MeasureGroup dwd:design-time-name="b948bb89-3025-4408-b7db-dc9b140b5fc5">
       <ID>Fact Insurance</ID>
       <Name>Fact Insurance</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -786,58 +786,58 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="96c38862-224d-4515-9bf9-b6f990033c67">
+        <Measure dwd:design-time-name="f7f6fdb2-f41e-46c3-a45b-c64834b60daf">
           <ID>Premium Amount</ID>
           <Name>Premium Amount</Name>
-          <Source dwd:design-time-name="d4e8b8ba-5720-45e5-b0e9-29d5e3172230">
+          <Source dwd:design-time-name="19cdcb50-59f8-4710-b8a9-788171273f6e">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="af0bc724-7e54-435d-95a4-ea6786c0cddd">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0ef1216a-6335-44be-b411-728d148602df">
               <TableID>dbo_FactInsurance</TableID>
               <ColumnID>PremiumAmount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="5581a64a-ebab-401a-a792-3869c2d8e51d">
+        <Measure dwd:design-time-name="a84c3c55-ef86-49fa-8310-48f611f7b014">
           <ID>Claim Amount</ID>
           <Name>Claim Amount</Name>
-          <Source dwd:design-time-name="fbd6c2cd-93c8-4706-b60d-ddcb777458b7">
+          <Source dwd:design-time-name="01f90f3e-cf6d-418d-b5f0-ed8b3eeb4c27">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="aadbd73f-900f-4888-8764-9f3ca0c28cd0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d8869542-8f3e-4e51-8ecf-e3ef8a9836f6">
               <TableID>dbo_FactInsurance</TableID>
               <ColumnID>ClaimAmount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4a109953-702c-463f-9b6f-6fadb4a7fd23">
+        <Measure dwd:design-time-name="4ca0b9d0-17f8-4eff-b9cc-1bc4d0d7d033">
           <ID>Tenure</ID>
           <Name>Tenure</Name>
-          <Source dwd:design-time-name="10d667e3-da95-44f1-85b9-d6498e4c4cdf">
+          <Source dwd:design-time-name="bc799b45-c123-44b2-bcb9-ebdf366638a5">
             <DataType>UnsignedInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="207058ad-d193-4ba6-a66f-f21689c0d3f1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="763f5747-476d-4561-8053-f6d138d96fc7">
               <TableID>dbo_FactInsurance</TableID>
               <ColumnID>Tenure</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4b8f3005-68b1-4e7b-b9c1-b4afb596ae3c">
+        <Measure dwd:design-time-name="8db81d75-f4e8-4b45-b2d7-c4943a36ef9f">
           <ID>Txn Process Time Hours</ID>
           <Name>Txn Process Time Hours</Name>
-          <Source dwd:design-time-name="1de9ccf7-1824-4cb8-b5f1-884f9836d27b">
+          <Source dwd:design-time-name="be09a10e-2ca6-4f4a-a656-4da7fa8cd6f7">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7a717125-3c7e-466f-a467-8cb44b231f5f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b1e678ac-d55d-4698-9180-5f3d359db6b6">
               <TableID>dbo_FactInsurance</TableID>
               <ColumnID>txn_process_time_hours</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="4890e94f-cf75-44e4-a5f7-ef6c6e4e0863">
+        <Measure dwd:design-time-name="734b0e06-3bc7-4ae8-8f35-ea3ce9cbd18c">
           <ID>Fact Insurance Count</ID>
           <Name>Fact Insurance Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="f8d47f56-a726-4932-8080-b81c649cb90b">
+          <Source dwd:design-time-name="49c5d821-a85d-4dfd-93e3-fed1bd161352">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="9de91d1d-14f4-4235-8d02-8db3fcefda91">
+            <Source xsi:type="RowBinding" dwd:design-time-name="cc5ab9b3-74fb-4a73-bfba-a64635798856">
               <TableID>dbo_FactInsurance</TableID>
             </Source>
           </Source>
@@ -846,16 +846,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2aac531d-e93e-44ca-a05d-24544040dd8b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8112cf64-a976-435b-8ad0-5526e722b0cc">
           <CubeDimensionID>Dim Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ed029494-375e-4ff1-817c-d9e3e30796ba">
+            <Attribute dwd:design-time-name="dff7440e-305b-46e1-8186-3b5ca59b2fe7">
               <AttributeID>Customer SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5c53dbfa-8bff-4430-96d4-1ff1ee9a2932">
+                <KeyColumn dwd:design-time-name="e5292dae-17df-4383-89dd-d37a4e561ed2">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c650653c-dd1a-43d3-988b-33f55b14dfcc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b51c01a1-ed89-46e8-bfd4-423dc935ff83">
                     <TableID>dbo_FactInsurance</TableID>
                     <ColumnID>CustomerKey</ColumnID>
                   </Source>
@@ -865,16 +865,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c6904553-87c9-4305-882c-4a667ee1c28a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6d71dffe-37fa-46ca-b845-212acbc98b6b">
           <CubeDimensionID>Dim Agent</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ea814e84-ae91-43a0-ad9a-67178e4a07d6">
+            <Attribute dwd:design-time-name="1a410671-53f7-473e-b03a-1f5d47ef7191">
               <AttributeID>Agent SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="67043d48-73b8-4d04-8426-f829ef5efbec">
+                <KeyColumn dwd:design-time-name="9b97e1e0-0e2b-4a2b-9822-c7edc05d60ab">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1146e927-a7af-4215-9989-e7a2842ea8da">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e95c0e8b-e4aa-40dd-92d8-b53228ad4410">
                     <TableID>dbo_FactInsurance</TableID>
                     <ColumnID>AgentKey</ColumnID>
                   </Source>
@@ -884,16 +884,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="951322fe-0e50-45ba-824a-4dd21ec56976">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="92c2aa82-39c4-403c-9083-041c0edc1347">
           <CubeDimensionID>Report Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="014a2499-28da-4168-8bb2-b0ef54b598ac">
+            <Attribute dwd:design-time-name="ce059c54-074e-4ca2-b1b2-0995044db3f6">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="84afa077-720b-4f82-b520-30fcdc5d1bf6">
+                <KeyColumn dwd:design-time-name="f3177621-83a6-49ee-81d0-8e9005fcf122">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ff05cdb4-3c62-47c1-b10e-e8bd1c160d93">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dbb271d2-86e4-4b73-9e3a-582210656ddf">
                     <TableID>dbo_FactInsurance</TableID>
                     <ColumnID>ReportDateKey</ColumnID>
                   </Source>
@@ -903,16 +903,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d1f21841-d31c-4b5d-9545-ca70563c8b20">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f871cb80-cfda-43c6-ac35-89be7b51f991">
           <CubeDimensionID>Loss Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5b318703-c598-4eeb-a033-76d979ae827a">
+            <Attribute dwd:design-time-name="e9e303d5-877d-41b4-93e5-5fa83abe8e85">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="36a32b07-4798-4e3f-aa69-af18eae872b2">
+                <KeyColumn dwd:design-time-name="52092c39-24b1-44b0-9ce1-5ba8a3d5c920">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dc69299a-3a7c-4144-bca3-0feb6357d62c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="974b08ad-07cd-4594-be3c-786175268e65">
                     <TableID>dbo_FactInsurance</TableID>
                     <ColumnID>LossDateKey</ColumnID>
                   </Source>
@@ -922,16 +922,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="53392e22-e569-47d2-b1a4-570eea097ff6">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3e7849ea-9235-4a4a-8800-d93e994fea85">
           <CubeDimensionID>Dim Vendor</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="453796e4-f8a7-42bd-af4e-7b3d329a8dd7">
+            <Attribute dwd:design-time-name="5d283d0d-3e74-42d9-a754-ade465174248">
               <AttributeID>Vendor SK</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="af534fb8-9b0e-4b87-9740-5d79fb7fa3a0">
+                <KeyColumn dwd:design-time-name="14b28496-d52c-43da-81b0-cc6b16aaafac">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86e32d0f-c7a8-4f53-8bb6-a4bb2d3adaac">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="041a08d9-b55a-40ab-a31d-779bca2c9c95">
                     <TableID>dbo_FactInsurance</TableID>
                     <ColumnID>VendorKey</ColumnID>
                   </Source>
@@ -941,16 +941,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="af702810-1d3b-4bce-b15f-a3fcf68d9b08">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8d4e1fba-d407-4aa5-897c-4152fa652941">
           <CubeDimensionID>Txn Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="4067c8d5-6ff4-4d3f-a6ca-dbea0458f86c">
+            <Attribute dwd:design-time-name="e1ad592a-d398-482c-90c4-7a809e82f6b9">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="db258800-cfa4-48ba-9d6b-0cc09b22fa54">
+                <KeyColumn dwd:design-time-name="50452dce-8d81-4251-ae03-6694b3217386">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e208fc3c-3fa3-4116-8744-3eb1807997b3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7a80b99f-8b1e-4a20-8b16-afc6db5f4d47">
                     <TableID>dbo_FactInsurance</TableID>
                     <ColumnID>TxnDateKey</ColumnID>
                   </Source>
@@ -964,16 +964,25 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="18401875-d33f-460e-83cf-b43e3fd21063">
+  <Source dwd:design-time-name="6e039e9b-4de0-42e9-98ea-95a59c237bb4">
     <DataSourceViewID>DSV_Insurance_Claims_Fraud_DW</DataSourceViewID>
   </Source>
   <Kpis>
-    <Kpi dwd:design-time-name="b52339a1-2fef-46a7-b27e-a87b2788b903">
+    <Kpi dwd:design-time-name="5dc7ae90-47b7-4cd0-9d50-ef8a9bb616b9">
       <ID>KPI</ID>
       <Name>KPI Claimed Amount</Name>
       <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
       <Value>[Measures].[Claim Amount]</Value>
       <Goal>[Measures].[Claim Amount] &gt; 10000</Goal>
+      <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="98a4bddb-5883-442d-a4f2-9569206b02d4">
+      <ID>KPI 1</ID>
+      <Name>KPI Claimed Loss</Name>
+      <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
+      <Value>[Measures].[Premium Amount]*[Measures].[Tenure] - [Measures].[Claim Amount]</Value>
+      <Goal>[Measures].[Claim Amount] &gt; [Measures].[Premium Amount] * [Measures].[Tenure]</Goal>
       <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
       <StatusGraphic>Gauge - Ascending</StatusGraphic>
     </Kpi>
