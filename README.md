@@ -5,6 +5,6 @@ Data analysis, visualization and report creation is done in this section.
 
 All the necessary documents have been included in the repository.
 
-#### Repo link for Insurance Claims Fraud SSIS: https://github.com/aseljayasooriya/InsuranceClaimsFraudSSIS.git
+### Repo link for Insurance Claims Fraud SSIS: https://github.com/aseljayasooriya/InsuranceClaimsFraudSSIS.git
 
-#### Technologies used: SSAS, SSRS, Power BI
+### Technologies used: SSAS, SSRS, Power BI
